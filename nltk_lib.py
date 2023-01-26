@@ -1,6 +1,6 @@
 import nltk
-from nltk.stem.porter import PorterStemmer
 import numpy as np
+from nltk.stem.porter import PorterStemmer
 
 # To tokenize data
 def tokenizer(sentence):

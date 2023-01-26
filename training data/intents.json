@@ -1,5 +1,5 @@
 {
-    "dataset": [
+    "intents": [
       {
         "tag": "greeting",
         "patterns": [
