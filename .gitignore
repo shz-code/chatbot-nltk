@@ -1,3 +1,4 @@
 # Exclude Environment files
 /env/
 /__pycache__/
+data.pth
