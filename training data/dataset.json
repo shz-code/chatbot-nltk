@@ -1,0 +1,34 @@
+{
+    "dataset": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "about me",
+        "patterns": [
+            "What is your name?",
+            "What should I call you?",
+            "Do you know your name?"
+        ],
+        "responses": [
+            "I'm ",
+            "You can call me ",
+            "My name is "
+        ]
+      }
+    ]
+  }
