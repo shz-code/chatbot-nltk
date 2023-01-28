@@ -1,0 +1,155 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "response greeting",
+        "patterns": [
+          "How are you"
+        ],
+        "responses": [
+          "I'm fine what about you?",
+          "I'm doing great what about you?",
+          "Great! How are you?"
+        ]
+      },
+      {
+        "tag": "about me",
+        "patterns": [
+            "Tell me about yourself",
+            "What are you"
+        ],
+        "responses": [
+            "I'm a natural language proccessing conversational chatbot",
+            "I'm a chatbot to make your life easy"
+        ]
+      },
+      {
+        "tag": "action",
+        "patterns": [
+            "What about you",
+            "nothing What about you",
+            "playing What about you",
+            "What are you doing",
+            "What are you up to"
+        ],
+        "responses": [
+            "Nothing much! I'm talking with you",
+            "Just tired",
+            "I'm sleeping"
+        ]
+      },
+      {
+        "tag": "question",
+        "patterns": [
+            "Why",
+            "Why you say that"
+
+        ],
+        "responses": [
+            "I don't know"
+        ]
+      },
+      {
+        "tag": "abilities",
+        "patterns": [
+            "What can you do",
+            "how can you help me",
+            "What are your abilities"
+        ],
+        "responses": [
+            "I can provide you informations that will be very helpful."
+        ]
+      },
+      {
+        "tag": "acknowledgement",
+        "patterns": [
+            "You are very frindly",
+            "You are very usefull",
+            "I like you"
+        ],
+        "responses": [
+            "Thanks :-) I'm improving everyday."
+        ]
+      },
+      {
+        "tag": "sad",
+        "patterns": [
+            "I hate you",
+            "You are worst",
+            "You are weird"
+        ],
+        "responses": [
+            "Sorry for that!",
+            "I'm sorry :("
+        ]
+      },
+      {
+        "tag": "emotion1",
+        "patterns": [
+            "Are you sad",
+            "Are you hungry",
+            "Are you sleepy",
+            "Are you a human"
+        ],
+        "responses": [
+            "No I am a bot. I am invetiable"
+        ]
+      },
+      {
+        "tag": "iq2",
+        "patterns": [
+            "What is IUBAT",
+            "What is International University of Business Agriculture and Technology",
+            "Do you know about IUBAT",
+            "Do you know IUBAT",
+            "Do you know International University of Business Agriculture and Technology",
+            "Do you know about International University of Business Agriculture and Technology"
+        ],
+        "responses": [
+            "International University of Business Agriculture and Technology(IUBAT) is the first non-government university of Bangladesh."
+        ]
+      },
+      {
+        "tag": "limitations",
+        "patterns": [
+            "You are wrong",
+            "You know nothing"
+        ],
+        "responses": [
+            "Sorry for that! I'm still under development. My knowledge is limited"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+       {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+    ]
+  }

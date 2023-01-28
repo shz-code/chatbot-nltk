@@ -6,7 +6,7 @@ from torch.utils.data import Dataset, DataLoader
 from model import NeuralNetwork
 from nltk_lib import tokenizer, stemming, bag_of_words
 
-with open("./training data/intents.json", 'r') as stream:
+with open("./nlp_pipeline/training data/intents.json", 'r') as stream:
     intents = json.load(stream)
 
 all_words = []
@@ -55,7 +55,7 @@ input_size = len(train_x[0])
 hidden_size = 8
 num_classes = len(tags)
 lr = 0.001
-num_epochs = 1000
+num_epochs = 2000
 
 dataset = CharDataset()
 train_loader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True)
@@ -80,6 +80,8 @@ for epoch in range(num_epochs):
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
+    if(epoch+1)%100 == 0:
+        print(f'epoch {epoch+1}/{num_epochs}')
 
 data = {
 "model_state": model.state_dict(),
@@ -90,7 +92,7 @@ data = {
 "tags": tags
 }
 
-FILE = "data.pth"
+FILE = "./nlp_pipeline/data.pth"
 torch.save(data, FILE)
 
 print(f'training complete. file saved to {FILE}')
