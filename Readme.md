@@ -3,7 +3,8 @@
 ## Major packages used
 - Speech Recognition
 - PyTorch
-- Pyttsx3
+- Pyttsx
+- NLTK
 
 ## Project requirements
 - `Python 3.7-3.9` (Pytorch limitation)
