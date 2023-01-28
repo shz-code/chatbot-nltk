@@ -77,6 +77,7 @@ For example
   ]
 }
 ```
+**NB**: You need to train your model again if you have modified the [intents.json](https://github.com/shz-code/chatbot-nltk/blob/master/nlp_pipeline/training%20data/intents.json) file. Run `train.py` file to train your chatbot. If you see no changes happening than delete the old **data.pth** file and train again.
 
 
 
