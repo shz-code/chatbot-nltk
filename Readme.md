@@ -84,5 +84,5 @@ For example
 
 ## Acknowledgements
 - Main Project idea [Patrick Loeber](https://github.com/patrickloeber/pytorch-chatbot)
-- Main article [Contextual Chatbots with TenserFlow]( https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077.) 
+- Main article [Contextual Chatbots with TenserFlow](https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077) 
 - Supporting article [Complete guide to build your ai chatbot with nlp in python](https://www.analyticsvidhya.com/blog/2021/10/complete-guide-to-build-your-ai-chatbot-with-nlp-in-python/)
